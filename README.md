@@ -1,5 +1,7 @@
 # PyHAT: Awesome Python htmx
 
+**THIS IS A WIP, BUT WE ARE VERY OPEN TO CONTRIBUTIONS**
+
 ## Table of Contents
 
 - [About](#about)
@@ -56,6 +58,8 @@ The best advice here is to get familiar with some of the core packages (htmx, ta
 
 
 ## Third Party Packages
+
+### Helper Libraries
 
 ### Django
 

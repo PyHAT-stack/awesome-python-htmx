@@ -90,3 +90,4 @@ An integration of Tailwind CSS for Django that is based on the precompiled versi
 
 ## Further Reading
 - [Awesome Htmx](https://github.com/rajasegar/awesome-htmx)
+- [htmx support in pycharm](https://oluwatobi.dev/blog/posts/htmx-support-in-pycharm)

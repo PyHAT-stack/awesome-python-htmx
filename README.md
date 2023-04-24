@@ -65,7 +65,9 @@ The best advice here is to get familiar with some of the core packages (htmx, ta
 <a href="https://flask.palletsprojects.com/en" target="_blank"><img src="https://img.shields.io/badge/-Flask-a9bbcc?style=flat&logo=flask&logoColor=black" alt="Flask"></a> 
 <a href="https://palletsprojects.com/p/jinja/" target="_blank"><img src="https://img.shields.io/badge/-Jinja2-a9bbcc?style=flat&logo=jinja&logoColor=black" alt="Jinja2"></a> 
 <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> -->
-- [Flask-HTMX](https://github.com/edmondchuc/flask-htmx) <a href="https://flask.palletsprojects.com/en" target="_blank"><img src="https://img.shields.io/badge/-Flask-a9bbcc?style=flat&logo=flask&logoColor=black" alt="Flask"></a><br/>A Flask extension to work with HTMX.
+
+- [Flask-HTMX](https://github.com/edmondchuc/flask-htmx) <a href="https://flask.palletsprojects.com/en" target="_blank"><img src="https://img.shields.io/badge/-Flask-a9bbcc?style=flat&logo=flask&logoColor=black" alt="Flask"></a><br/>
+A Flask extension to work with HTMX.
 
 ### Frameworks
 -   Forge Packages <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
@@ -73,6 +75,9 @@ Forge is a set of Django packages that work well together, but can also be used 
     -   [forge-htmx](https://www.forgepackages.com/docs/forge-htmx/) -  The forge-htmx Django package adds a couple of unique features for working with HTMX. One is template fragments and the other is view actions.
     -   [forge-tailwind](https://www.forgepackages.com/docs/forge-tailwind/) - Use Tailwind CSS with Django without requiring JavaScript or npm.
 
+### Components
+- [Django Dashboards](https://github.com/wildfish/django-dashboards) <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
+Tools to help you build data dashboards in Django.
 
 ## Further Reading
 - [Awesome Htmx](https://github.com/rajasegar/awesome-htmx)

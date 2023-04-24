@@ -13,7 +13,7 @@ PyHAT is more than just a snake with a hat 🐍🤠. It stands for Python htmx A
 
 The following is a curated list of awesome things related to this stack.
 
-## Usage <a name = "usage"></a>
+## Usage ✏️ <a name = "usage"></a>
 
 Htmx can be used with any backend framework. Currently, there is a lot of experimentation in the Python space, which is exciting! But that also means that there are a lot of disparate approaches.
 

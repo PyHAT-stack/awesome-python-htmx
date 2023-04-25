@@ -75,6 +75,8 @@ TAILWIND   <a href="https://tailwindcss.com/" target="_blank"><img src="https://
 A Flask extension to work with HTMX.
 - **[FastAPI-HTMX](https://github.com/maces/fastapi-htmx)** <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a><br>
 An opinionated extension for FastAPI to speed up development of lightly interactive web applications.
+- **[django-htmx](https://github.com/adamchainz/django-htmx)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
+Extensions for using Django with htmx.
 
 ### Frameworks
 - **[Forge Packages](https://www.forgepackages.com/)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>

@@ -16,7 +16,7 @@ PyHAT is more than just a snake with a hat 🐍🤠. It stands for Python htmx A
 Does any of this sound like you:
 - I want to stick with just Python and HTML/CSS, [but not sacrifice front-end functionality](https://htmx.org/essays/when-to-use-hypermedia/).
 - I don't want to have to use a [complicated front end framework](https://htmx.org/essays/a-response-to-rich-harris/).
-- I don't enjoy [agonizaing over CSS class names](https://tailwindcss.com/docs/utility-first#:~:text=You%20aren%E2%80%99t%20wasting%20energy%20inventing%20class%20names.).
+- I don't enjoy [agonizing over CSS class names](https://tailwindcss.com/docs/utility-first#:~:text=You%20aren%E2%80%99t%20wasting%20energy%20inventing%20class%20names.).
 - I want to maintain a consistent design without any bikeshedding.
 
 If the above sounds like you then you are in the right place!

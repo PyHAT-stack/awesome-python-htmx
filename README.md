@@ -97,6 +97,8 @@ A client-side autocomplete component powered by htmx featuring multiselect, sear
 ### Tools
 - **[django-tailwind-cli](https://oliverandrich.github.io/django-tailwind-cli/)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <a href="https://tailwindcss.com/" target="_blank"><img src="https://img.shields.io/badge/-Tailwind_CSS-a9bbcc?style=flat&logo=tailwindcss&logoColor=black" alt="Tailwind CSS"></a><br/>
 An integration of Tailwind CSS for Django that is based on the precompiled versions of the Tailwind CSS CLI (No JS required!)
+- **[HTML Form to Dict](https://github.com/guettli/html_form_to_dict)**<br/>
+Do simple end-to-end testing of form handling without a real browser (like selenium/puppeteer/playwright). Supports the "action" and "method" attributes of forms and additionaly the htmx attributes hx-get, hx-post.
 
 ## Projects Using PyHAT (or similar)
 - **[Django Requests Tracker](https://github.com/bensi94/Django-Requests-Tracker)** <br/>

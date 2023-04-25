@@ -64,6 +64,7 @@ A cli tool based on django's `startproject --template` to bootstrap your django 
 
 ### Helper Libraries
 <!--
+ STARLETTE   <a href="https://www.starlette.io/" target="_blank"><img src="https://img.shields.io/badge/-Starlette-a9bbcc?style=flat&logo=starlette&logoColor=black" alt="Starlette"></a>
  FASTAPI   <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a>
 FLASK   <a href="https://flask.palletsprojects.com/en" target="_blank"><img src="https://img.shields.io/badge/-Flask-a9bbcc?style=flat&logo=flask&logoColor=black" alt="Flask"></a> 
 JINJA   <a href="https://palletsprojects.com/p/jinja/" target="_blank"><img src="https://img.shields.io/badge/-Jinja2-a9bbcc?style=flat&logo=jinja&logoColor=black" alt="Jinja2"></a> 
@@ -78,12 +79,18 @@ A Flask extension to work with HTMX.
 An extension for Flask that adds support for htmx to your application. It simplifies using htmx with Flask by enhancing the global 'request' object and providing a new 'make_response' function.
 - **[FastAPI-HTMX](https://github.com/maces/fastapi-htmx)** <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a><br>
 An opinionated extension for FastAPI to speed up development of lightly interactive web applications.
+- **[asgi-htmx](https://github.com/florimondmanca/asgi-htmx)** <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a><br>
+HTMX integration for ASGI applications. Works with Starlette, FastAPI, Quart -- or any other web framework supporting ASGI that exposes the ASGI `scope`. Inspired by `django-htmx`.
 - **[django-htmx](https://github.com/adamchainz/django-htmx)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
 Extensions for using Django with htmx.
 - **[django-siteajax](https://github.com/idlesign/django-siteajax)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
 Streamline your server and client interaction using declarative techniques in your HTML and helpful abstractions from siteajax in your Python code. Powered by htmx.
 - **[simple-django-htmx](https://github.com/yaakovLowenstein/simple-django-htmx)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
 A package to simplify the usage of HTMX with Django. Easily add HTMX reuqests witout needing additional urls, and reduce clutter in views by offloading all responsibility to an hx_request.
+- **[django-cbv-htmx](https://github.com/mixmash11/django-cbv-htmx)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
+Helps connect Django Class-Based-Views with htmx.
+- **[Dark Star]** <a href="https://www.starlette.io/" target="_blank"><img src="https://img.shields.io/badge/-Starlette-a9bbcc?style=flat&logo=starlette&logoColor=black" alt="Starlette"></a><br/>
+Dark Star is a web framework that provides filesystem routing for Starlette and first-class support for server-side rendering. Built for HTMX.
 
 ### Frameworks
 - **[Forge Packages](https://www.forgepackages.com/)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>

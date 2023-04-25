@@ -73,6 +73,8 @@ TAILWIND   <a href="https://tailwindcss.com/" target="_blank"><img src="https://
 
 - **[Flask-HTMX](https://github.com/edmondchuc/flask-htmx)** <a href="https://flask.palletsprojects.com/en" target="_blank"><img src="https://img.shields.io/badge/-Flask-a9bbcc?style=flat&logo=flask&logoColor=black" alt="Flask"></a><br/>
 A Flask extension to work with HTMX.
+- **[htmx-Flask](https://github.com/sponsfreixes/htmx-flask)** <a href="https://flask.palletsprojects.com/en" target="_blank"><img src="https://img.shields.io/badge/-Flask-a9bbcc?style=flat&logo=flask&logoColor=black" alt="Flask"></a> <br/>
+An extension for Flask that adds support for htmx to your application. It simplifies using htmx with Flask by enhancing the global 'request' object and providing a new 'make_response' function.
 - **[FastAPI-HTMX](https://github.com/maces/fastapi-htmx)** <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a><br>
 An opinionated extension for FastAPI to speed up development of lightly interactive web applications.
 - **[django-htmx](https://github.com/adamchainz/django-htmx)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>

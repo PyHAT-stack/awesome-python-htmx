@@ -12,6 +12,7 @@
 PyHAT is more than just a snake with a hat 🐍🤠. It stands for Python htmx ASGI Tailwind&mdash;a web stack that allows you to build powerful web applications using nothing more than... drumroll... Python, htmx, and Tailwind.
 
 ### Why Should I Care
+
 Does any of this sound like you:
 - I want to stick with just Python and HTML/CSS, [but not sacrifice front-end functionality](https://htmx.org/essays/when-to-use-hypermedia/).
 - I don't want to have to use a [complicated front end framework](https://htmx.org/essays/a-response-to-rich-harris/).
@@ -21,6 +22,7 @@ Does any of this sound like you:
 If the above sounds like you then you are in the right place!
 
 ### But Will it Work in Production
+
 Yes! [Here is a very good example](https://htmx.org/essays/a-real-world-react-to-htmx-port/) of a project a company underwent using HTMX with Django in production. Some highlights from the article:
 > - The effort took about 2 months (with a 21K LOC code base, mostly JavaScript)
 > - No reduction in the application’s user experience (UX)
@@ -45,6 +47,7 @@ The best advice here is to get familiar with some of the core packages (htmx, ta
 -   [htmx](https://htmx.org/) - htmx gives you access to AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML, using attributes, so you can build modern user interfaces with the simplicity and power of hypertext. Htmx has no outside dependencies outside of a vanilla JavaScript file referenced in your HTML `<head>` section.
 -   [tailwindcss](https://tailwindcss.com/docs/installation) - Rapidly build modern websites without ever leaving your HTML. Tailwind provides a standalone CLI tool that _does not_ require npm or any other JavaScript dependencies. (You can install it through `pip` using the [pytailwindcss](https://pypi.org/project/pytailwindcss/) library)
 
+
 ## Introductory Resources
 
 -   [simple site](https://github.com/tataraba/simplesite) - Provides thorough documentation on building a site from the ground up with FastAPI, Jinja, htmx, and Tailwind.
@@ -56,13 +59,27 @@ The best advice here is to get familiar with some of the core packages (htmx, ta
 
 -   [HTMX + Flask: Modern Python Web Apps, Hold the JavaScript Course](https://training.talkpython.fm/courses/htmx-flask-modern-python-web-apps-hold-the-javascript) - htmx is one of the hottest properties 🔥 in web development today, and for good reason. This framework, along with the libraries and techniques introduced in this course, will have you writing the best Python web apps you've ever written: clean, fast, and interactive without all that frontend overhead. (TalkPython Training)
 
+## Design, Theory, and Patterns
+- **[Django + htmx patterns](https://github.com/spookylukey/django-htmx-patterns)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a><br/>
+A compilation of patterns for writing Django projects that use htmx, with complete example code.
+- **[htmx Essays](https://htmx.org/essays/)**<br/>
+A collection of essays by Carson Gross, the creator of htmx. Some specific essays of note for those not familiar with his teachings:
+    - **[Hypermedia-Driven Applications](https://htmx.org/essays/hypermedia-driven-applications/)** - This web stack could have been called PyHDA, this essay gives a great primer on how a PyHAT application should look, architecturally.
+    - **[Locality of Behaviour (LoB)](https://htmx.org/essays/locality-of-behaviour/)** - A concept you will see referred to a lot around here. "The behaviour of a unit of code should be as obvious as possible by looking only at that unit of code"
+    - **[Splitting Your Data & Application APIs: Going Further](https://htmx.org/essays/splitting-your-apis/)** - A great essay (responding to a [great article](https://max.engineer/server-informed-ui)). 
+    > If you split your API into Data and Application APIs...you should consider changing your Application API from JSON to Hypermedia (HTML) & using a hypermedia-oriented library like htmx to reap the benefits of the hypermedia model (simplicity, reliability, flexibility, etc.)
+
+
 
 ## Third Party Packages
+
 ### Templates
+
 - **[fuzzy-couscous](https://tobi-de.github.io/fuzzy-couscous/)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <a href="https://tailwindcss.com/" target="_blank"><img src="https://img.shields.io/badge/-Tailwind_CSS-a9bbcc?style=flat&logo=tailwindcss&logoColor=black" alt="Tailwind CSS"></a><br/>
 A cli tool based on django's `startproject --template` to bootstrap your django projects with a PyHAT stack.
 
 ### Helper Libraries
+
 <!--
  STARLETTE   <a href="https://www.starlette.io/" target="_blank"><img src="https://img.shields.io/badge/-Starlette-a9bbcc?style=flat&logo=starlette&logoColor=black" alt="Starlette"></a>
  FASTAPI   <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a>
@@ -93,6 +110,7 @@ Helps connect Django Class-Based-Views with htmx.
 A set of extensions for using htmx with Starlette, based on `django-htmx`.
 
 ### Frameworks
+
 - **[Forge Packages](https://www.forgepackages.com/)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
 Forge is a set of Django packages that work well together, but can also be used independently. These include some htmx/tailwind specific packages highlighted below. Note that these are opinionated approaches, but they provide a robust set of features to enhance your developer experience.
     -   **[forge-htmx](https://www.forgepackages.com/docs/forge-htmx/)** -  The forge-htmx Django package adds a couple of unique features for working with HTMX. One is template fragments and the other is view actions.
@@ -101,21 +119,25 @@ Forge is a set of Django packages that work well together, but can also be used 
 A django app that combines and helps leverage the full-stack django framework, the frontend htmx framework, the django-htmx library, and the jinja template engine. It provides extended django Views with htmx build-in functionality, CRUD Views for django models, extra Mixins to use with your Views to make life easier, a ready-to-use jinja environment, Middlewares for automations, and extra utils and decorators for common use cases.
 
 ### Components
+
 - **[Django Dashboards](https://github.com/wildfish/django-dashboards)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
 Tools to help you build data dashboards in Django.
 - **[django-htmx-autocomplete](https://github.com/PHACDataHub/django-htmx-autocomplete)** <br/>
 A client-side autocomplete component powered by htmx featuring multiselect, search and is completely extensible.
 
 ### Tools
+
 - **[django-tailwind-cli](https://oliverandrich.github.io/django-tailwind-cli/)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <a href="https://tailwindcss.com/" target="_blank"><img src="https://img.shields.io/badge/-Tailwind_CSS-a9bbcc?style=flat&logo=tailwindcss&logoColor=black" alt="Tailwind CSS"></a><br/>
 An integration of Tailwind CSS for Django that is based on the precompiled versions of the Tailwind CSS CLI (No JS required!)
 - **[HTML Form to Dict](https://github.com/guettli/html_form_to_dict)**<br/>
 Do simple end-to-end testing of form handling without a real browser (like selenium/puppeteer/playwright). Supports the "action" and "method" attributes of forms and additionaly the htmx attributes hx-get, hx-post.
 
 ## Projects Using PyHAT (or similar)
+
 - **[Django Requests Tracker](https://github.com/bensi94/Django-Requests-Tracker)** <br/>
 A Django development tool which collects and displays information on requests, responses, SQL queries, headers, Django settings and more. The Front-end uses HTMX.
 
 ## Further Reading
+
 - [Awesome Htmx](https://github.com/rajasegar/awesome-htmx)
 - [htmx support in pycharm](https://oluwatobi.dev/blog/posts/htmx-support-in-pycharm)

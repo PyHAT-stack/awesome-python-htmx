@@ -77,6 +77,8 @@ A Flask extension to work with HTMX.
 An opinionated extension for FastAPI to speed up development of lightly interactive web applications.
 - **[django-htmx](https://github.com/adamchainz/django-htmx)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
 Extensions for using Django with htmx.
+- **[django-siteajax](https://github.com/idlesign/django-siteajax)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
+Streamline your server and client interaction using declarative techniques in your HTML and helpful abstractions from siteajax in your Python code. Powered by htmx.
 
 ### Frameworks
 - **[Forge Packages](https://www.forgepackages.com/)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>

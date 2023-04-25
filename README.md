@@ -73,6 +73,8 @@ TAILWIND   <a href="https://tailwindcss.com/" target="_blank"><img src="https://
 
 - **[Flask-HTMX](https://github.com/edmondchuc/flask-htmx)** <a href="https://flask.palletsprojects.com/en" target="_blank"><img src="https://img.shields.io/badge/-Flask-a9bbcc?style=flat&logo=flask&logoColor=black" alt="Flask"></a><br/>
 A Flask extension to work with HTMX.
+- **[FastAPI-HTMX](https://github.com/maces/fastapi-htmx)** <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a><br>
+An opinionated extension for FastAPI to speed up development of lightly interactive web applications.
 
 ### Frameworks
 - **[Forge Packages](https://www.forgepackages.com/)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
@@ -83,6 +85,8 @@ Forge is a set of Django packages that work well together, but can also be used 
 ### Components
 - **[Django Dashboards](https://github.com/wildfish/django-dashboards)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
 Tools to help you build data dashboards in Django.
+- **[django-htmx-autocomplete](https://github.com/PHACDataHub/django-htmx-autocomplete)** <br/>
+A client-side autocomplete component powered by htmx featuring multiselect, search and is completely extensible.
 
 ### Tools
 - **[django-tailwind-cli](https://oliverandrich.github.io/django-tailwind-cli/)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <a href="https://tailwindcss.com/" target="_blank"><img src="https://img.shields.io/badge/-Tailwind_CSS-a9bbcc?style=flat&logo=tailwindcss&logoColor=black" alt="Tailwind CSS"></a><br/>

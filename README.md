@@ -141,6 +141,8 @@ Do simple end-to-end testing of form handling without a real browser (like selen
 A Django development tool which collects and displays information on requests, responses, SQL queries, headers, Django settings and more. The Front-end uses HTMX.
 - **[IDP-Z3](https://gitlab.com/krr/IDP-Z3)** <a href="https://flask.palletsprojects.com/en" target="_blank"><img src="https://img.shields.io/badge/-Flask-a9bbcc?style=flat&logo=flask&logoColor=black" alt="Flask"></a><br/>
 A software collection implementing the Knowledge Base paradigm using the FO(.) language. Uses htmx for the front end.
+- **[JupySpace](https://github.com/davidbrochart/jupyspace)** <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a><br/>
+A web server and client to manage conda-forge environments from the browser and access them through JupyterLab. Uses htmx on the front-end.
 
 ## Further Reading
 

@@ -4,8 +4,25 @@
 
 ## Table of Contents
 
-- [About](#about)
-- [Usage](#usage)
+- [PyHAT: Awesome Python htmx ](#pyhat-awesome-python-htmx-)
+  - [Table of Contents](#table-of-contents)
+  - [What is PyHAT 🧐 ](#what-is-pyhat--)
+    - [Why Should I Care](#why-should-i-care)
+    - [But Will it Work in Production](#but-will-it-work-in-production)
+  - [Usage ✏️ ](#usage-️-)
+  - [Official Resources](#official-resources)
+  - [Introductory Resources](#introductory-resources)
+  - [Introductory Courses](#introductory-courses)
+  - [Design, Theory, and Patterns](#design-theory-and-patterns)
+  - [Third Party Packages](#third-party-packages)
+    - [Templates](#templates)
+    - [Helper Libraries](#helper-libraries)
+    - [Frameworks](#frameworks)
+    - [Components](#components)
+    - [Tools](#tools)
+  - [Projects Using PyHAT (or similar)](#projects-using-pyhat-or-similar)
+  - [Further Reading](#further-reading)
+
 
 ## What is PyHAT 🧐 <a name = "about"></a>
 
@@ -67,7 +84,7 @@ A compilation of patterns for writing Django projects that use htmx, with comple
 A collection of essays by Carson Gross, the creator of htmx. Some specific essays of note for those not familiar with his teachings:
     - **[Hypermedia-Driven Applications](https://htmx.org/essays/hypermedia-driven-applications/)** - This web stack could have been called PyHDA, this essay gives a great primer on how a PyHAT application should look, architecturally.
     - **[Locality of Behaviour (LoB)](https://htmx.org/essays/locality-of-behaviour/)** - A concept you will see referred to a lot around here. "The behaviour of a unit of code should be as obvious as possible by looking only at that unit of code"
-    - **[Splitting Your Data & Application APIs: Going Further](https://htmx.org/essays/splitting-your-apis/)** - A great essay (responding to a [great article](https://max.engineer/server-informed-ui)). 
+    - **[Splitting Your Data & Application APIs: Going Further](https://htmx.org/essays/splitting-your-apis/)** - A great essay (responding to a [great article](https://max.engineer/server-informed-ui)).
     > If you split your API into Data and Application APIs...you should consider changing your Application API from JSON to Hypermedia (HTML) & using a hypermedia-oriented library like htmx to reap the benefits of the hypermedia model (simplicity, reliability, flexibility, etc.)
 
 
@@ -84,8 +101,8 @@ A cli tool based on django's `startproject --template` to bootstrap your django 
 <!--
  STARLETTE   <a href="https://www.starlette.io/" target="_blank"><img src="https://img.shields.io/badge/-Starlette-a9bbcc?style=flat&logo=starlette&logoColor=black" alt="Starlette"></a>
  FASTAPI   <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a>
-FLASK   <a href="https://flask.palletsprojects.com/en" target="_blank"><img src="https://img.shields.io/badge/-Flask-a9bbcc?style=flat&logo=flask&logoColor=black" alt="Flask"></a> 
-JINJA   <a href="https://palletsprojects.com/p/jinja/" target="_blank"><img src="https://img.shields.io/badge/-Jinja2-a9bbcc?style=flat&logo=jinja&logoColor=black" alt="Jinja2"></a> 
+FLASK   <a href="https://flask.palletsprojects.com/en" target="_blank"><img src="https://img.shields.io/badge/-Flask-a9bbcc?style=flat&logo=flask&logoColor=black" alt="Flask"></a>
+JINJA   <a href="https://palletsprojects.com/p/jinja/" target="_blank"><img src="https://img.shields.io/badge/-Jinja2-a9bbcc?style=flat&logo=jinja&logoColor=black" alt="Jinja2"></a>
 DJANGO   <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a>
 TAILWIND   <a href="https://tailwindcss.com/" target="_blank"><img src="https://img.shields.io/badge/-Tailwind_CSS-a9bbcc?style=flat&logo=tailwindcss&logoColor=black" alt="Tailwind CSS"></a>
 -->

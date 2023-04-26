@@ -128,7 +128,7 @@ Extensions for using Django with htmx.
 - **[django-siteajax](https://github.com/idlesign/django-siteajax)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
 Streamline your server and client interaction using declarative techniques in your HTML and helpful abstractions from siteajax in your Python code. Powered by htmx.
 - **[hx-requests](https://github.com/yaakovLowenstein/hx-requests)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
-A package to simplify the usage of HTMX with Django. Easily add HTMX reuqests witout needing additional urls, and reduce clutter in views by offloading all responsibility to an hx_request.
+A package to simplify the usage of HTMX with Django. Easily add HTMX requests witout needing additional urls, and reduce clutter in views by offloading all responsibility to an hx_request.
 - **[django-cbv-htmx](https://github.com/mixmash11/django-cbv-htmx)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
 Helps connect Django Class-Based-Views with htmx.
 - **[Starlette_htmx](https://github.com/lllama/starlette-htmx)** <a href="https://www.starlette.io/" target="_blank"><img src="https://img.shields.io/badge/-Starlette-a9bbcc?style=flat&logo=starlette&logoColor=black" alt="Starlette"></a><br/>

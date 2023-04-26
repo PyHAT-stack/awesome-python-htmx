@@ -15,6 +15,7 @@
   - [Introductory Courses](#introductory-courses)
   - [Design, Theory, and Patterns](#design-theory-and-patterns)
   - [Third Party Packages](#third-party-packages)
+    - [Demos](#demos)
     - [Templates](#templates)
     - [Helper Libraries](#helper-libraries)
     - [Frameworks](#frameworks)
@@ -68,7 +69,6 @@ The best advice here is to get familiar with some of the core packages (htmx, ta
 ## Introductory Resources
 
 -   **[simple site](https://github.com/tataraba/simplesite)** <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a> - Provides thorough documentation on building a site from the ground up with FastAPI, Jinja, htmx, and Tailwind.
--   **[Music Binder](https://github.com/tataraba/musicbinder)** <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a> - More advanced version of above repo showcasing features like active search and infinite scroll. You can open with a Codespace in GitHub without having to install anything locally.
 -   **[Rapid Prototyping with Flask, htmx, and Tailwind CSS](https://testdriven.io/blog/flask-htmx-tailwind/)** <a href="https://flask.palletsprojects.com/en" target="_blank"><img src="https://img.shields.io/badge/-Flask-a9bbcc?style=flat&logo=flask&logoColor=black" alt="Flask"></a> - In this tutorial, you'll learn how to set up Flask with htmx and Tailwind CSS. (testdriven.io)
 
 
@@ -90,6 +90,11 @@ A collection of essays by Carson Gross, the creator of htmx. Some specific essay
 
 
 ## Third Party Packages
+
+### Demos
+
+-   **[Music Binder](https://github.com/tataraba/musicbinder)** <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a> - More advanced version of [Simple Site repo](https://github.com/tataraba/simplesite) showcasing features like active search and infinite scroll. You can open with a Codespace in GitHub without having to install anything locally.
+-   **[Bulldoggy: The Reminders App](https://github.com/AutomationPanda/bulldoggy-reminders-app)** <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a> Bulldoggy is a small demo web app for tracking reminders. Uses htmx to handle `GET`, `POST`, `PATCH` requests in a fully-functioning to-do frontend.
 
 ### Templates
 

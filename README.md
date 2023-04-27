@@ -7,27 +7,34 @@
 - [PyHAT: Awesome Python htmx ](#pyhat-awesome-python-htmx-)
   - [Table of Contents](#table-of-contents)
   - [What is PyHAT 🧐 ](#what-is-pyhat--)
+    - [Our Goal](#our-goal)
     - [Why Should I Care](#why-should-i-care)
     - [But Will it Work in Production](#but-will-it-work-in-production)
   - [Usage ✏️ ](#usage-️-)
-  - [Official Resources](#official-resources)
-  - [Introductory Resources](#introductory-resources)
-  - [Introductory Courses](#introductory-courses)
+  - [Official Resources 📚](#official-resources-)
+  - [Introductory Resources 🔰](#introductory-resources-)
+  - [Introductory Courses 🏫](#introductory-courses-)
   - [Design, Theory, and Patterns](#design-theory-and-patterns)
-  - [Third Party Packages](#third-party-packages)
+  - [Third Party Packages 📦](#third-party-packages-)
     - [Demos](#demos)
     - [Templates](#templates)
     - [Helper Libraries](#helper-libraries)
     - [Frameworks](#frameworks)
     - [Components](#components)
     - [Tools](#tools)
-  - [Projects Using PyHAT (or similar)](#projects-using-pyhat-or-similar)
-  - [Further Reading](#further-reading)
+  - [Projects Using PyHAT (or similar) 🏗️](#projects-using-pyhat-or-similar-️)
+  - [Further Reading 📖](#further-reading-)
 
 
 ## What is PyHAT 🧐 <a name = "about"></a>
 
 PyHAT is more than just a snake with a hat 🐍🤠. It stands for Python htmx ASGI Tailwind&mdash;a web stack that allows you to build powerful web applications using nothing more than... drumroll... Python, htmx, and Tailwind.
+
+### Our Goal
+
+We want to promote hypermedia driven applications. That's it. That's the goal.
+
+Okay, well, more specifically, we want to promote htmx within the Python ecosystem.
 
 ### Why Should I Care
 
@@ -60,19 +67,19 @@ Htmx can be used with any backend framework. Currently, there is a lot of experi
 The best advice here is to get familiar with some of the core packages (htmx, tailwind). Then feel free to check out any of the packages below.
 
 
-## Official Resources
+## Official Resources 📚
 
 -   [htmx](https://htmx.org/) - htmx gives you access to AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML, using attributes, so you can build modern user interfaces with the simplicity and power of hypertext. Htmx has no outside dependencies outside of a vanilla JavaScript file referenced in your HTML `<head>` section.
 -   [tailwindcss](https://tailwindcss.com/docs/installation) - Rapidly build modern websites without ever leaving your HTML. Tailwind provides a standalone CLI tool that _does not_ require npm or any other JavaScript dependencies. (You can install it through `pip` using the [pytailwindcss](https://pypi.org/project/pytailwindcss/) library)
 
 
-## Introductory Resources
+## Introductory Resources 🔰
 
 -   **[simple site](https://github.com/tataraba/simplesite)** <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a> - Provides thorough documentation on building a site from the ground up with FastAPI, Jinja, htmx, and Tailwind.
 -   **[Rapid Prototyping with Flask, htmx, and Tailwind CSS](https://testdriven.io/blog/flask-htmx-tailwind/)** <a href="https://flask.palletsprojects.com/en" target="_blank"><img src="https://img.shields.io/badge/-Flask-a9bbcc?style=flat&logo=flask&logoColor=black" alt="Flask"></a> - In this tutorial, you'll learn how to set up Flask with htmx and Tailwind CSS. (testdriven.io)
 
 
-## Introductory Courses
+## Introductory Courses 🏫
 
 -   **[HTMX + Flask: Modern Python Web Apps, Hold the JavaScript Course](https://training.talkpython.fm/courses/htmx-flask-modern-python-web-apps-hold-the-javascript)** <a href="https://flask.palletsprojects.com/en" target="_blank"><img src="https://img.shields.io/badge/-Flask-a9bbcc?style=flat&logo=flask&logoColor=black" alt="Flask"></a> - htmx is one of the hottest properties 🔥 in web development today, and for good reason. This framework, along with the libraries and techniques introduced in this course, will have you writing the best Python web apps you've ever written: clean, fast, and interactive without all that frontend overhead. (TalkPython Training)
 -   **[Bugbytes Django & HTMX](https://www.youtube.com/watch?v=Ula0c_rZ6gk&list=PL-2EBeDYMIbRByZ8GXhcnQSuv2dog4JxY)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> - A phenomenal tutorial series on using Django with htmx.
@@ -89,7 +96,7 @@ A collection of essays by Carson Gross, the creator of htmx. Some specific essay
 
 
 
-## Third Party Packages
+## Third Party Packages 📦
 
 ### Demos
 
@@ -157,7 +164,7 @@ An integration of Tailwind CSS for Django that is based on the precompiled versi
 - **[HTML Form to Dict](https://github.com/guettli/html_form_to_dict)**<br/>
 Do simple end-to-end testing of form handling without a real browser (like selenium/puppeteer/playwright). Supports the "action" and "method" attributes of forms and additionaly the htmx attributes hx-get, hx-post.
 
-## Projects Using PyHAT (or similar)
+## Projects Using PyHAT (or similar) 🏗️
 
 - **[Django Requests Tracker](https://github.com/bensi94/Django-Requests-Tracker)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a><br/>
 A Django development tool which collects and displays information on requests, responses, SQL queries, headers, Django settings and more. The Front-end uses HTMX.
@@ -166,7 +173,7 @@ A software collection implementing the Knowledge Base paradigm using the FO(.) l
 - **[JupySpace](https://github.com/davidbrochart/jupyspace)** <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a><br/>
 A web server and client to manage conda-forge environments from the browser and access them through JupyterLab. Uses htmx on the front-end.
 
-## Further Reading
+## Further Reading 📖
 
 - [Awesome Htmx](https://github.com/rajasegar/awesome-htmx)
 - [htmx support in pycharm](https://oluwatobi.dev/blog/posts/htmx-support-in-pycharm)

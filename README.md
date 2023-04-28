@@ -1,6 +1,6 @@
 # PyHAT: Awesome Python htmx [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
-**THIS IS A WIP, BUT WE ARE VERY OPEN TO CONTRIBUTIONS**
+Are you interested in the intersection of Python and [Hypermedia-Driven Applications](https://htmx.org/essays/hypermedia-driven-applications/)? Head on over to the [discussions tab](https://github.com/PyHAT-stack/awesome-python-htmx/discussions), [introduce yourself](https://github.com/PyHAT-stack/awesome-python-htmx/discussions/2), and lets [get to work](https://github.com/PyHAT-stack/awesome-python-htmx/discussions/1)!
 
 ## Table of Contents
 

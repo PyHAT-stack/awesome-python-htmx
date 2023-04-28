@@ -9,6 +9,7 @@
   - [What is PyHAT 🧐 ](#what-is-pyhat--)
     - [Our Goal](#our-goal)
     - [Why Should I Care](#why-should-i-care)
+    - [Maybe This Isn't For Me](#maybe-this-isnt-for-me)
     - [But Will it Work in Production](#but-will-it-work-in-production)
   - [Usage ✏️ ](#usage-️-)
   - [Official Resources 📚](#official-resources-)
@@ -45,6 +46,18 @@ Does any of this sound like you:
 - I want to maintain a consistent design without any bikeshedding.
 
 If the above sounds like you then you are in the right place!
+
+### Maybe This Isn't For Me
+
+One of the links above goes to [When Should You Use Hypermedia](https://htmx.org/essays/when-to-use-hypermedia/) over at htmx.org, and is a pretty great read if you want to asses if this is for you. It also expounds on the following points:
+
+Hypermedia might not be a good fit:
+- …If your UI has many, dynamic interdependencies
+  - i.e., Google Maps, Google Sheets
+- ...If you require offline functionality
+- …If your UI state is updated extremely frequently
+  - i.e., Online game
+- …If your team is not on board
 
 ### But Will it Work in Production
 

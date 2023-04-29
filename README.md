@@ -2,30 +2,6 @@ b# PyHAT: Awesome Python htmx [![Awesome](https://awesome.re/badge.svg)](https:/
 
 Are you interested in the intersection of Python and [Hypermedia-Driven Applications](https://htmx.org/essays/hypermedia-driven-applications/)? Head on over to the [discussions tab](https://github.com/PyHAT-stack/awesome-python-htmx/discussions), [introduce yourself](https://github.com/PyHAT-stack/awesome-python-htmx/discussions/2), and lets [get to work](https://github.com/PyHAT-stack/awesome-python-htmx/discussions/1)!
 
-## Table of Contents
-
-- [Table of Contents](#table-of-contents)
-- [What is PyHAT 🧐 ](#what-is-pyhat--)
-  - [Our Goal](#our-goal)
-  - [Why Should I Care](#why-should-i-care)
-  - [Maybe This Isn't For Me](#maybe-this-isnt-for-me)
-  - [But Will it Work in Production](#but-will-it-work-in-production)
-- [Glossary :scroll:](#glossary-scroll)
-- [Usage ✏️ ](#usage-️-)
-- [Official Resources 📚](#official-resources-)
-- [Introductory Resources 🔰](#introductory-resources-)
-- [Introductory Courses 🏫](#introductory-courses-)
-- [Design, Theory, and Patterns 🧠](#design-theory-and-patterns-)
-- [Third Party Packages 📦](#third-party-packages-)
-  - [Demos](#demos)
-  - [Templates](#templates)
-  - [Helper Libraries](#helper-libraries)
-  - [Frameworks](#frameworks)
-  - [Components](#components)
-  - [Tools](#tools)
-- [Projects Using PyHAT (or similar) 🏗️](#projects-using-pyhat-or-similar-️)
-- [Further Reading 📖](#further-reading-)
-
 
 ## What is PyHAT 🧐 <a name = "about"></a>
 

@@ -1,30 +1,30 @@
-# PyHAT: Awesome Python htmx [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
+b# PyHAT: Awesome Python htmx [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
 Are you interested in the intersection of Python and [Hypermedia-Driven Applications](https://htmx.org/essays/hypermedia-driven-applications/)? Head on over to the [discussions tab](https://github.com/PyHAT-stack/awesome-python-htmx/discussions), [introduce yourself](https://github.com/PyHAT-stack/awesome-python-htmx/discussions/2), and lets [get to work](https://github.com/PyHAT-stack/awesome-python-htmx/discussions/1)!
 
 ## Table of Contents
 
-- [PyHAT: Awesome Python htmx ](#pyhat-awesome-python-htmx-)
-  - [Table of Contents](#table-of-contents)
-  - [What is PyHAT 🧐 ](#what-is-pyhat--)
-    - [Our Goal](#our-goal)
-    - [Why Should I Care](#why-should-i-care)
-    - [Maybe This Isn't For Me](#maybe-this-isnt-for-me)
-    - [But Will it Work in Production](#but-will-it-work-in-production)
-  - [Usage ✏️ ](#usage-️-)
-  - [Official Resources 📚](#official-resources-)
-  - [Introductory Resources 🔰](#introductory-resources-)
-  - [Introductory Courses 🏫](#introductory-courses-)
-  - [Design, Theory, and Patterns 🧠](#design-theory-and-patterns-)
-  - [Third Party Packages 📦](#third-party-packages-)
-    - [Demos](#demos)
-    - [Templates](#templates)
-    - [Helper Libraries](#helper-libraries)
-    - [Frameworks](#frameworks)
-    - [Components](#components)
-    - [Tools](#tools)
-  - [Projects Using PyHAT (or similar) 🏗️](#projects-using-pyhat-or-similar-️)
-  - [Further Reading 📖](#further-reading-)
+- [Table of Contents](#table-of-contents)
+- [What is PyHAT 🧐 ](#what-is-pyhat--)
+  - [Our Goal](#our-goal)
+  - [Why Should I Care](#why-should-i-care)
+  - [Maybe This Isn't For Me](#maybe-this-isnt-for-me)
+  - [But Will it Work in Production](#but-will-it-work-in-production)
+- [Glossary :scroll:](#glossary-scroll)
+- [Usage ✏️ ](#usage-️-)
+- [Official Resources 📚](#official-resources-)
+- [Introductory Resources 🔰](#introductory-resources-)
+- [Introductory Courses 🏫](#introductory-courses-)
+- [Design, Theory, and Patterns 🧠](#design-theory-and-patterns-)
+- [Third Party Packages 📦](#third-party-packages-)
+  - [Demos](#demos)
+  - [Templates](#templates)
+  - [Helper Libraries](#helper-libraries)
+  - [Frameworks](#frameworks)
+  - [Components](#components)
+  - [Tools](#tools)
+- [Projects Using PyHAT (or similar) 🏗️](#projects-using-pyhat-or-similar-️)
+- [Further Reading 📖](#further-reading-)
 
 
 ## What is PyHAT 🧐 <a name = "about"></a>
@@ -71,6 +71,19 @@ Yes! [Here is a very good example](https://htmx.org/essays/a-real-world-react-to
 > - First load time-to-interactive was reduced by 50-60% (from 2 to 6 seconds to 1 to 2 seconds)
 > - Much larger data sets were possible when using htmx, because react simply couldn’t handle the data
 > - Web application memory usage was reduced by 46% (75MB to 45MB)
+
+## Glossary :scroll:
+
+**Asynchronous Server Gateway Interface (ASGI)** - A standard that allows an application to talk to a server, allowing for multiple, asynchronous events per application. <br>
+**component** - A reusable custom element. Within JavaScript, it is a self-contained element with its own properties/methods that are reusable. In this context, the term is more broadly applied to any reusable elements (which may include hypermedia or other design elements). <br>
+**dependency** - Any application (librariy or package) that are required to run your application. <br>
+**fragments** - Refers to partial content of a an HTML template. See also: _template fragments_ </br>
+**hypermedia** - Medium of information including graphics, audio, video, text, and hyperlinks, typically represented on the web as HTML <br>
+**Hypermedia Driven Application (HDA)** - Uses declarative, HTML embedded syntax to achieve front-end interactivity, while interacting with the server in terms of hypermedia (HTML) instead of a non-hypermedia format (JSON). <br>
+**partials** - A loose term, sometimes referring to "partial" content that can be displayed in a template, or _partial_ content to be generated from within a template block.<br>
+**Server Side Rendering (SSR)** - Generating static HTML markup on the server before it is rendered in the browser on the front-end. <br>
+**Single Page Application (SPA)** - A web app implementation that loads a single web document, and subsequently updates content through JavaScript APIs.<br>
+**template fragments** - a relatively rare SSR template library feature that allow you to render a _fragment_ or partial bit of the content within a template, rather than the entire template.
 
 
 ## Usage ✏️ <a name = "usage"></a>

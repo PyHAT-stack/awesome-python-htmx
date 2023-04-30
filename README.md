@@ -53,7 +53,7 @@ Yes! [Here is a very good example](https://htmx.org/essays/a-real-world-react-to
 - **Asynchronous Server Gateway Interface (ASGI)** - A standard that allows an application to talk to a server, allowing for multiple, asynchronous events per application. <br>
 - **component** - A reusable custom element. Within JavaScript, it is a self-contained element with its own properties/methods that are reusable. In this context, the term is more broadly applied to any reusable elements (which may include hypermedia or other design elements). <br>
 - **dependency** - Any application (librariy or package) that are required to run your application. <br>
-**fragments** - Refers to partial content of a an HTML template. See also: _template fragments_ </br>
+- **fragments** - Refers to partial content of a an HTML template. See also: _template fragments_ </br>
 - **hypermedia** - Medium of information including graphics, audio, video, text, and hyperlinks, typically represented on the web as HTML <br>
 - **Hypermedia Driven Application (HDA)** - Uses declarative, HTML embedded syntax to achieve front-end interactivity, while interacting with the server in terms of hypermedia (HTML) instead of a non-hypermedia format (JSON). <br>
 - **partials** - A loose term, sometimes referring to "partial" content that can be displayed in a template, or _partial_ content to be generated from within a template block.<br>

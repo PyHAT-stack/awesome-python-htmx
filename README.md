@@ -95,7 +95,8 @@ A collection of essays by Carson Gross, the creator of htmx. Some specific essay
     - **[Locality of Behaviour (LoB)](https://htmx.org/essays/locality-of-behaviour/)** - A concept you will see referred to a lot around here. "The behaviour of a unit of code should be as obvious as possible by looking only at that unit of code"
     - **[Splitting Your Data & Application APIs: Going Further](https://htmx.org/essays/splitting-your-apis/)** - A great essay (responding to a [great article](https://max.engineer/server-informed-ui)).
     > If you split your API into Data and Application APIs...you should consider changing your Application API from JSON to Hypermedia (HTML) & using a hypermedia-oriented library like htmx to reap the benefits of the hypermedia model (simplicity, reliability, flexibility, etc.)
-
+- **[Why We Should Stop Using JavaScript According to Douglas Crockford (Inventor of JSON)](https://youtu.be/lc5Np9OqDHU)**<br/>
+A short video of Douglas Crockford explaining why we should stop using JavaScript.
 
 
 ## Third Party Packages 📦

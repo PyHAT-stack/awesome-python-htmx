@@ -184,3 +184,4 @@ A web server and client to manage conda-forge environments from the browser and 
 
 - [Awesome Htmx](https://github.com/rajasegar/awesome-htmx)
 - [htmx support in pycharm](https://oluwatobi.dev/blog/posts/htmx-support-in-pycharm)
+- [unsuck.js](https://unsuckjs.com/)

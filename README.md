@@ -79,6 +79,8 @@ The best advice here is to get familiar with some of the core packages (htmx, ta
 
 -   **[simple site](https://github.com/tataraba/simplesite)** <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a> - Provides thorough documentation on building a site from the ground up with FastAPI, Jinja, htmx, and Tailwind.
 -   **[Rapid Prototyping with Flask, htmx, and Tailwind CSS](https://testdriven.io/blog/flask-htmx-tailwind/)** <a href="https://flask.palletsprojects.com/en" target="_blank"><img src="https://img.shields.io/badge/-Flask-a9bbcc?style=flat&logo=flask&logoColor=black" alt="Flask"></a> - In this tutorial, you'll learn how to set up Flask with htmx and Tailwind CSS. (testdriven.io)
+- **[Django, HTMX and Alpine.js: Modern websites, JavaScript optional
+](https://www.saaspegasus.com/guides/modern-javascript-for-django-developers/htmx-alpine/)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> - Building a modern front end in Django without reaching for a full-blown JavaScript framework. Choosing the right tools for the job, and bringing them into your project.
 
 
 ## Introductory Courses 🏫

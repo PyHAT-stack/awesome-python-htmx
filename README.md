@@ -3,7 +3,7 @@
 Are you interested in the intersection of Python and [Hypermedia-Driven Applications](https://htmx.org/essays/hypermedia-driven-applications/)? Head on over to the [discussions tab](https://github.com/PyHAT-stack/awesome-python-htmx/discussions), [introduce yourself](https://github.com/PyHAT-stack/awesome-python-htmx/discussions/2), and lets [get to work](https://github.com/PyHAT-stack/awesome-python-htmx/discussions/1)!
 
 
-## What is PyHAT 🧐 <a name = "about"></a>
+## What is PyHAT? 🧐 <a name = "about"></a>
 
 PyHAT is more than just a snake with a hat 🐍🤠. It stands for Python htmx ASGI Tailwind&mdash;a web stack that allows you to build powerful web applications using nothing more than... drumroll... Python, htmx, and Tailwind.
 
@@ -13,7 +13,7 @@ We want to promote hypermedia driven applications. That's it. That's the goal.
 
 Okay, well, more specifically, we want to promote htmx within the Python ecosystem.
 
-### Why Should I Care
+### Why Should I Care?
 
 Does any of this sound like you:
 - I want to stick with just Python and HTML/CSS, [but not sacrifice front-end functionality](https://htmx.org/essays/when-to-use-hypermedia/).
@@ -35,7 +35,7 @@ Hypermedia might not be a good fit:
   - i.e., Online game
 - …If your team is not on board
 
-### But Will it Work in Production
+### But Will it Work in Production?
 
 Yes! [Here is a very good example](https://htmx.org/essays/a-real-world-react-to-htmx-port/) of a project a company underwent using HTMX with Django in production. Some highlights from the article:
 > - The effort took about 2 months (with a 21K LOC code base, mostly JavaScript)

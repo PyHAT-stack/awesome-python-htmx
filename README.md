@@ -37,7 +37,10 @@ Hypermedia might not be a good fit:
 
 ### But Will it Work in Production?
 
-Yes! [Here is a very good example](https://htmx.org/essays/a-real-world-react-to-htmx-port/) of a project a company underwent using HTMX with Django in production. Some highlights from the article:
+Yes! [Here is a very good example](https://htmx.org/essays/a-real-world-react-to-htmx-port/) of a project a company underwent using HTMX with Django in production. 
+<details>
+<summary>Some highlights from the article.</summary>
+
 > - The effort took about 2 months (with a 21K LOC code base, mostly JavaScript)
 > - No reduction in the application’s user experience (UX)
 > - They reduced the code base size by 67% (21,500 LOC to 7200 LOC)
@@ -47,6 +50,8 @@ Yes! [Here is a very good example](https://htmx.org/essays/a-real-world-react-to
 > - First load time-to-interactive was reduced by 50-60% (from 2 to 6 seconds to 1 to 2 seconds)
 > - Much larger data sets were possible when using htmx, because react simply couldn’t handle the data
 > - Web application memory usage was reduced by 46% (75MB to 45MB)
+
+</details>
 
 ## Glossary :scroll:
 

@@ -152,6 +152,8 @@ A package to simplify the usage of HTMX with Django. Easily add HTMX requests wi
 Helps connect Django Class-Based-Views with htmx.
 - **[Starlette_htmx](https://github.com/lllama/starlette-htmx)** <a href="https://www.starlette.io/" target="_blank"><img src="https://img.shields.io/badge/-Starlette-a9bbcc?style=flat&logo=starlette&logoColor=black" alt="Starlette"></a><br/>
 A set of extensions for using htmx with Starlette, based on `django-htmx`.
+- **[django-template-partials](https://github.com/carltongibson/django-template-partials)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
+Reusable named inline partials for the Django Template Language.
 
 ### Frameworks
 

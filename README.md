@@ -7,6 +7,8 @@ Are you interested in the intersection of Python and [Hypermedia-Driven Applicat
 
 PyHAT is more than just a snake with a hat 🐍🤠. It stands for Python htmx ASGI Tailwind&mdash;a web stack that allows you to build powerful web applications using nothing more than... drumroll... Python, htmx, and Tailwind.
 
+Quick, <a name="tools">take me to the tools already</a>!
+
 ### Our Goal
 
 We want to promote hypermedia driven applications. That's it. That's the goal.
@@ -37,7 +39,7 @@ Hypermedia might not be a good fit:
 
 ### But Will it Work in Production?
 
-Yes! [Here is a very good example](https://htmx.org/essays/a-real-world-react-to-htmx-port/) of a project a company underwent using HTMX with Django in production. 
+Yes! [Here is a very good example](https://htmx.org/essays/a-real-world-react-to-htmx-port/) of a project a company underwent using HTMX with Django in production. You can also watch the original video from DjangoCon EU 2022, titled [From React to htmx on a real-world SaaS product: we did it, and it's awesome!](https://www.youtube.com/watch?v=3GObi93tjZI)
 <details>
 <summary>Some highlights from the article.</summary>
 
@@ -91,6 +93,7 @@ The best advice here is to get familiar with some of the core packages (htmx, ta
 ## Introductory Courses 🏫
 
 -   **[HTMX + Flask: Modern Python Web Apps, Hold the JavaScript Course](https://training.talkpython.fm/courses/htmx-flask-modern-python-web-apps-hold-the-javascript)** <a href="https://flask.palletsprojects.com/en" target="_blank"><img src="https://img.shields.io/badge/-Flask-a9bbcc?style=flat&logo=flask&logoColor=black" alt="Flask"></a> - htmx is one of the hottest properties 🔥 in web development today, and for good reason. This framework, along with the libraries and techniques introduced in this course, will have you writing the best Python web apps you've ever written: clean, fast, and interactive without all that frontend overhead. (TalkPython Training)
+-   **[HTMX + Django: Modern Python Web Apps, Hold the JavaScript Course](https://training.talkpython.fm/courses/htmx-django-modern-python-web-apps-hold-the-javascript)** - Similar to the course above, except with Django. (TalkPython Training)
 -   **[Bugbytes Django & HTMX](https://www.youtube.com/watch?v=Ula0c_rZ6gk&list=PL-2EBeDYMIbRByZ8GXhcnQSuv2dog4JxY)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> - A phenomenal tutorial series on using Django with htmx.
 
 ## Design, Theory, and Patterns 🧠
@@ -104,14 +107,16 @@ A collection of essays by Carson Gross, the creator of htmx. Some specific essay
     > If you split your API into Data and Application APIs...you should consider changing your Application API from JSON to Hypermedia (HTML) & using a hypermedia-oriented library like htmx to reap the benefits of the hypermedia model (simplicity, reliability, flexibility, etc.)
 - **[Why We Should Stop Using JavaScript According to Douglas Crockford (Inventor of JSON)](https://youtu.be/lc5Np9OqDHU)**<br/>
 A short video of Douglas Crockford explaining why we should stop using JavaScript.
+- **[3 IRL use cases for Python and HTMX](https://www.bitecode.dev/p/3-irl-use-cases-for-python-and-htmx)** - _From the author:_ There is nothing HTMX does that you couldn't do in another way. But HTMX pairs wonderfully with traditional server side frameworks and gives you clean, correct, results quite fast. You won't get candy crush bling level with it, but you will get something practical, which is regularly all what I need.
 
 
-## Third Party Packages 📦
+## Third Party Packages 📦 <a name = "tools"></a>
 
 ### Demos
 
 -   **[Music Binder](https://github.com/tataraba/musicbinder)** <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a> - More advanced version of [Simple Site repo](https://github.com/tataraba/simplesite) showcasing features like active search and infinite scroll. You can open with a Codespace in GitHub without having to install anything locally.
 -   **[Bulldoggy: The Reminders App](https://github.com/AutomationPanda/bulldoggy-reminders-app)** <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a> Bulldoggy is a small demo web app for tracking reminders. Uses htmx to handle `GET`, `POST`, `PATCH` requests in a fully-functioning to-do frontend.
+-   **[Owela Club](https://github.com/adamchainz/owela-club)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> - Play the Namibian game of Owela against a terrible AI. Built using Django and htmx.
 
 ### Templates
 
@@ -154,7 +159,7 @@ Helps connect Django Class-Based-Views with htmx.
 A set of extensions for using htmx with Starlette, based on `django-htmx`.
 
 ### Frameworks
-
+- **[Litestar](https://litestar.dev)** <a href="https://litestar.dev/" target="_blank"><img src="https://img.shields.io/badge/-Litestar-a9bbcc?style=flat&logoColor=black" alt="Litestar"></a> <br/> Litestar is a full-on ASGI web framework (think FastAPI, Sanic, Starlette, etc...) So why is it included here? With their most recent 2.0 release, the creators have included htmx support out of the box. A special `HTMXRequest` provides easier access to HX-request header objects, and an `HTMXTemplate` object that includes attributes for common htmx actions (pushing url, re_swap, re_targets, etc...)
 - **[Forge Packages](https://www.forgepackages.com/)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
 Forge is a set of Django packages that work well together, but can also be used independently. These include some htmx/tailwind specific packages highlighted below. Note that these are opinionated approaches, but they provide a robust set of features to enhance your developer experience.
     -   **[forge-htmx](https://www.forgepackages.com/docs/forge-htmx/)** -  The forge-htmx Django package adds a couple of unique features for working with HTMX. One is template fragments and the other is view actions.
@@ -166,7 +171,7 @@ A django app that combines and helps leverage the full-stack django framework, t
 
 - **[Django Dashboards](https://github.com/wildfish/django-dashboards)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
 Tools to help you build data dashboards in Django.
-- **[django-htmx-autocomplete](https://github.com/PHACDataHub/django-htmx-autocomplete)** <br/>
+- **[django-htmx-autocomplete](https://github.com/PHACDataHub/django-htmx-autocomplete)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
 A client-side autocomplete component powered by htmx featuring multiselect, search and is completely extensible.
 
 ### Tools

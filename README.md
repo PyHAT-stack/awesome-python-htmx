@@ -7,7 +7,7 @@ Are you interested in the intersection of Python and [Hypermedia-Driven Applicat
 
 PyHAT is more than just a snake with a hat 🐍🤠. It stands for Python htmx ASGI Tailwind&mdash;a web stack that allows you to build powerful web applications using nothing more than... drumroll... Python, htmx, and Tailwind.
 
-Quick, <a name="tools">take me to the tools already</a>!
+Quick, <a href="#tools">take me to the tools already</a>!
 
 ### Our Goal
 
@@ -179,7 +179,7 @@ Tools to help you build data dashboards in Django.
 - **[django-htmx-autocomplete](https://github.com/PHACDataHub/django-htmx-autocomplete)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
 A client-side autocomplete component powered by htmx featuring multiselect, search and is completely extensible.
 
-### Tools
+### Tools <a name = "tools"></a>
 
 - **[django-tailwind-cli](https://oliverandrich.github.io/django-tailwind-cli/)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <a href="https://tailwindcss.com/" target="_blank"><img src="https://img.shields.io/badge/-Tailwind_CSS-a9bbcc?style=flat&logo=tailwindcss&logoColor=black" alt="Tailwind CSS"></a><br/>
 An integration of Tailwind CSS for Django that is based on the precompiled versions of the Tailwind CSS CLI (No JS required!)

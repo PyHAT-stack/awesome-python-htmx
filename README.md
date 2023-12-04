@@ -111,6 +111,7 @@ A collection of essays by Carson Gross, the creator of htmx. Some specific essay
 A short video of Douglas Crockford explaining why we should stop using JavaScript.
 - **[3 IRL use cases for Python and HTMX](https://www.bitecode.dev/p/3-irl-use-cases-for-python-and-htmx)** - _From the author:_ There is nothing HTMX does that you couldn't do in another way. But HTMX pairs wonderfully with traditional server side frameworks and gives you clean, correct, results quite fast. You won't get candy crush bling level with it, but you will get something practical, which is regularly all what I need.
 - **[HTML First](https://html-first.com)** - HTML First is a set of principles that aims to make building web software easier, faster, more inclusive, and more maintainable by... 1) Leveraging the default capabilities of modern web browsers, 2) Leveraging the extreme simplicity of HTML's attribute syntax, 3) Leveraging the web's ViewSource affordance.
+- **[You don't need JavaScript for that](https://www.htmhell.dev/adventcalendar/2023/2/)** - It's one of the core principles of web development and it means that you should Choose the least powerful language suitable for a given purpose... On the web this means preferring HTML over CSS, and then CSS over JS.
 
 
 ## Third Party Packages 📦 <a name = "tools"></a>

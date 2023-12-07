@@ -164,7 +164,7 @@ Helps connect Django Class-Based-Views with htmx.
 - **[Starlette_htmx](https://github.com/lllama/starlette-htmx)** <a href="https://www.starlette.io/" target="_blank"><img src="https://img.shields.io/badge/-Starlette-a9bbcc?style=flat&logo=starlette&logoColor=black" alt="Starlette"></a><br/>
 A set of extensions for using htmx with Starlette, based on `django-htmx`.
 - **[django-template-partials](https://github.com/carltongibson/django-template-partials)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>
-Reusable named inline partials for the Django Template Language.
+Reusable named inline partials for the Django Template Language. [Has a great intro talk from DjangoCon](https://www.youtube.com/watch?v=_3oGI4RC52s)! 🎥
 
 ### Frameworks
 - **[Litestar](https://litestar.dev)** <a href="https://litestar.dev/" target="_blank"><img src="https://img.shields.io/badge/-Litestar-a9bbcc?style=flat&logoColor=black" alt="Litestar"></a> <br/> Litestar is a full-on ASGI web framework (think FastAPI, Sanic, Starlette, etc...) So why is it included here? With their most recent 2.0 release, the creators have included htmx support out of the box. A special `HTMXRequest` provides easier access to HX-request header objects, and an `HTMXTemplate` object that includes attributes for common htmx actions (pushing url, re_swap, re_targets, etc...)

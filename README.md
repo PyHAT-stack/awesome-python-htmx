@@ -126,8 +126,8 @@ A short video of Douglas Crockford explaining why we should stop using JavaScrip
 
 ### Templates
 
-- **[fuzzy-couscous](https://tobi-de.github.io/fuzzy-couscous/)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <a href="https://tailwindcss.com/" target="_blank"><img src="https://img.shields.io/badge/-Tailwind_CSS-a9bbcc?style=flat&logo=tailwindcss&logoColor=black" alt="Tailwind CSS"></a><br/>
-A cli tool based on django's `startproject --template` to bootstrap your django projects with a PyHAT stack.
+- **[falco](https://github.com/tobi-de/falco)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <a href="https://tailwindcss.com/" target="_blank"><img src="https://img.shields.io/badge/-Tailwind_CSS-a9bbcc?style=flat&logo=tailwindcss&logoColor=black" alt="Tailwind CSS"></a><br/>
+Enhance your Django developer experience: CLI and Guides for the Modern Django Developer.
 
 ### Helper Libraries
 

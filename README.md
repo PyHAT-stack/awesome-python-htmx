@@ -199,6 +199,8 @@ A Django development tool which collects and displays information on requests, r
 A software collection implementing the Knowledge Base paradigm using the FO(.) language. Uses htmx for the front end.
 - **[JupySpace](https://github.com/davidbrochart/jupyspace)** <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a><br/>
 A web server and client to manage conda-forge environments from the browser and access them through JupyterLab. Uses htmx on the front-end.
+- **[Harfang](https://github.com/sqwxl/harfang)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a><br/>
+A social content posting and discussion site with a focus on simplicity and accessibility. Inspired by Hacker News and Reddit. Built with Django, HTMX, Alpine.js and Tailwind CSS
 
 ## Further Reading 📖
 

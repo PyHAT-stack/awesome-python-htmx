@@ -151,6 +151,8 @@ A Flask extension to work with HTMX.
 An extension for Flask that adds support for htmx to your application. It simplifies using htmx with Flask by enhancing the global 'request' object and providing a new 'make_response' function.
 - **[FastAPI-HTMX](https://github.com/maces/fastapi-htmx)** <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a><br>
 An opinionated extension for FastAPI to speed up development of lightly interactive web applications.
+- **[FastHX](https://github.com/volfpeter/fasthx)** <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a><br>
+Flexible FastAPI utility for adding HTMX support to routes using the decorator syntax. It works with any templating engine or server-side rendering library and comes with built-in Jinja2 support.
 - **[asgi-htmx](https://github.com/florimondmanca/asgi-htmx)** <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/-FastAPI-a9bbcc?style=flat&logo=fastapi&logoColor=black" alt="FastAPI"></a><br>
 HTMX integration for ASGI applications. Works with Starlette, FastAPI, Quart -- or any other web framework supporting ASGI that exposes the ASGI `scope`. Inspired by `django-htmx`.
 - **[django-htmx](https://github.com/adamchainz/django-htmx)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <br/>

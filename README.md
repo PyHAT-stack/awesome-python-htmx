@@ -114,7 +114,7 @@ A short video of Douglas Crockford explaining why we should stop using JavaScrip
 - **[3 IRL use cases for Python and HTMX](https://www.bitecode.dev/p/3-irl-use-cases-for-python-and-htmx)** - _From the author:_ There is nothing HTMX does that you couldn't do in another way. But HTMX pairs wonderfully with traditional server side frameworks and gives you clean, correct, results quite fast. You won't get candy crush bling level with it, but you will get something practical, which is regularly all what I need.
 - **[HTML First](https://html-first.com)** - HTML First is a set of principles that aims to make building web software easier, faster, more inclusive, and more maintainable by... 1) Leveraging the default capabilities of modern web browsers, 2) Leveraging the extreme simplicity of HTML's attribute syntax, 3) Leveraging the web's ViewSource affordance.
 - **[You don't need JavaScript for that](https://www.htmhell.dev/adventcalendar/2023/2/)** - It's one of the core principles of web development and it means that you should Choose the least powerful language suitable for a given purpose... On the web this means preferring HTML over CSS, and then CSS over JS.
-- **[Django HTMX Components](https://dhc.iwanalabs.com/)** - Live demos and code repository of common Django + HTMX pattenrs. They are designed to be copy-pasted into your project and customized to your needs.
+- **[Django HTMX Components](https://dhc.iwanalabs.com/)** - Live demos and code repository of common Django + HTMX patterns. They are designed to be copy-pasted into your project and customized to your needs.
 
 
 ## Third Party Packages 📦 <a name = "tools"></a>
@@ -129,6 +129,8 @@ A short video of Douglas Crockford explaining why we should stop using JavaScrip
 
 - **[falco](https://github.com/tobi-de/falco)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <a href="https://tailwindcss.com/" target="_blank"><img src="https://img.shields.io/badge/-Tailwind_CSS-a9bbcc?style=flat&logo=tailwindcss&logoColor=black" alt="Tailwind CSS"></a><br/>
 Enhance your Django developer experience: CLI and Guides for the Modern Django Developer.
+- **[django-cotton](https://github.com/wrabit/django-cotton)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a> <a href="https://tailwindcss.com/" target="_blank"><img src="https://img.shields.io/badge/-Tailwind_CSS-a9bbcc?style=flat&logo=tailwindcss&logoColor=black" alt="Tailwind CSS"></a><br/>
+A fresh approach to modern UI composition in Django. A familiar expressive syntax. Create highly re-usable and configurable components. (No Jinja2 needed)  
 
 ### Helper Libraries
 

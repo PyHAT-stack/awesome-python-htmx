@@ -181,6 +181,11 @@ Forge is a set of Django packages that work well together, but can also be used 
 A django app that combines and helps leverage the full-stack django framework, the frontend htmx framework, the django-htmx library, and the jinja template engine. It provides extended django Views with htmx build-in functionality, CRUD Views for django models, extra Mixins to use with your Views to make life easier, a ready-to-use jinja environment, Middlewares for automations, and extra utils and decorators for common use cases.
 - **[Ludic](https://github.com/paveldedik/ludic)** <a href="https://www.starlette.io/" target="_blank"><img src="https://img.shields.io/badge/-Starlette-a9bbcc?style=flat&logo=starlette&logoColor=black" alt="Starlette"></a><br/>
 Ludic is a lightweight ASGI web framework that allows the building of dynamic HTML pages using pure Python. It is based on Starlette and offers seamless HTMX integration, a component-based approach, and intuitive f-string templating for a smooth and powerful development experience.
+- **[FastHTML](https://github.com/AnswerDotAI/fasthtml)** <a href="https://fastht.ml/" target="_blank"><img src="https://img.shields.io/badge/-FastHTML-a9bbcc?style=flat&logoColor=black" alt="FastHTML"></a><br/>
+FastHTML is a pure-Python web framework for fast, scalable web applications with minimal, compact code. It's designed to be:
+  - Powerful and expressive enough to build the most advanced, interactive web apps you can imagine.
+  - Fast and lightweight, so you can write less code and get more done.
+  - Easy to learn and use, with a simple, intuitive syntax that makes it easy to build complex apps quickly.
 
 ### Components
 

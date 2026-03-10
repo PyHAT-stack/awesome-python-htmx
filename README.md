@@ -181,6 +181,8 @@ Forge is a set of Django packages that work well together, but can also be used 
 A django app that combines and helps leverage the full-stack django framework, the frontend htmx framework, the django-htmx library, and the jinja template engine. It provides extended django Views with htmx build-in functionality, CRUD Views for django models, extra Mixins to use with your Views to make life easier, a ready-to-use jinja environment, Middlewares for automations, and extra utils and decorators for common use cases.
 - **[Ludic](https://github.com/paveldedik/ludic)** <a href="https://www.starlette.io/" target="_blank"><img src="https://img.shields.io/badge/-Starlette-a9bbcc?style=flat&logo=starlette&logoColor=black" alt="Starlette"></a><br/>
 Ludic is a lightweight ASGI web framework that allows the building of dynamic HTML pages using pure Python. It is based on Starlette and offers seamless HTMX integration, a component-based approach, and intuitive f-string templating for a smooth and powerful development experience.
+- **[Chirp](https://github.com/lbliii/chirp)** <br/>
+A Python ASGI web framework for HTML over the wire with template fragments, streaming responses, and Server-Sent Events.
 
 ### Components
 

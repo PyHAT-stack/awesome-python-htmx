@@ -3,6 +3,7 @@
 Are you interested in the intersection of Python and [Hypermedia-Driven Applications](https://htmx.org/essays/hypermedia-driven-applications/)? Head on over to the [discussions tab](https://github.com/PyHAT-stack/awesome-python-htmx/discussions), [introduce yourself](https://github.com/PyHAT-stack/awesome-python-htmx/discussions/2), and let's [get to work](https://github.com/PyHAT-stack/awesome-python-htmx/discussions/1)!
 
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Python HTMX workflow orchestration, automated web development management, and multi-agent coordination. MIT licensed.
 ## What is PyHAT? 🧐 <a name = "about"></a>
 
 PyHAT is more than just a snake with a hat 🐍🤠. It stands for Python htmx ASGI Tailwind&mdash;a web stack that allows you to build powerful web applications using nothing more than... drumroll... Python, htmx, and Tailwind.

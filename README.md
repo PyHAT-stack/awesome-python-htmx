@@ -208,6 +208,8 @@ A software collection implementing the Knowledge Base paradigm using the FO(.) l
 A web server and client to manage conda-forge environments from the browser and access them through JupyterLab. Uses htmx on the front-end.
 - **[Harfang](https://github.com/sqwxl/harfang)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a><br/>
 A social content posting and discussion site with a focus on simplicity and accessibility. Inspired by Hacker News and Reddit. Built with Django, HTMX, Alpine.js and Tailwind CSS
+- **[Huismus](https://github.com/codebyarne/huismus)** <a href="https://docs.djangoproject.com/en/" target="_blank"><img src="https://img.shields.io/badge/-Django-a9bbcc?style=flat&logo=django&logoColor=black" alt="Django"></a><br/>
+Self-hosted bookkeeping for Dutch freelancers: quotes, invoices and credit notes as PDFs, expenses with receipts, VAT reports. Server-rendered Django templates with htmx and plain CSS, every form also works without JavaScript. Runs as a Docker container or a desktop app.
 
 ## Further Reading 📖
 
